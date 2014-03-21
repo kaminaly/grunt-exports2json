@@ -25,7 +25,9 @@ module.exports = function(grunt){
           return true;
         }
       }).forEach(function(src){
-        grunt.file.write(f.dest, JSON.stringify(require(path.join(cwd, src))));
+        src = path.join(cwd, src);
+        delete require.cache[src]
+        grunt.file.write(f.dest, JSON.stringify(require(src)));
       });
       
       grunt.log.writeln('File "' + f.dest + '" created.');
