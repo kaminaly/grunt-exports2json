@@ -1,0 +1,51 @@
+{
+  "name": "grunt-exports2json",
+  "description": "A grunt plugin. convert module.exports to JSON and output.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kaminaly/grunt-exports2json",
+  "author": {
+    "name": "Hiroaki Yasutomo",
+    "url": "http://github.com/kaminaly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaminaly/grunt-exports2json"
+  },
+  "bugs": {
+    "url": "https://github.com/kaminaly/grunt-exports2json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kaminaly/grunt-exports2json/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "CoffeeScript",
+    "json"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "readme": "# grunt-exports2json v0.1.0\n\n> Just only feature, that convert module.exports to JSON and output. You can use CoffeeScript.",
+  "readmeFilename": "README.md",
+  "_id": "grunt-exports2json@0.1.0",
+  "_from": "grunt-exports2json@"
+}
