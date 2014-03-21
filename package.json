@@ -1,7 +1,7 @@
 {
   "name": "grunt-exports2json",
   "description": "A grunt plugin. convert module.exports to JSON and output.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/kaminaly/grunt-exports2json",
   "author": {
     "name": "Hiroaki Yasutomo",
@@ -44,8 +44,8 @@
   "dependencies": {
     "coffee-script": "~1.7.1"
   },
-  "readme": "# grunt-exports2json v0.1.0\n\n> Just only feature, that convert module.exports to JSON and output. You can use CoffeeScript.",
+  "readme": "# grunt-exports2json v0.1.1\n\n> Just only feature, that convert module.exports to JSON and output. You can use CoffeeScript.",
   "readmeFilename": "README.md",
-  "_id": "grunt-exports2json@0.1.0",
+  "_id": "grunt-exports2json@0.1.1",
   "_from": "grunt-exports2json@"
 }
